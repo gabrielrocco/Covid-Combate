@@ -1,4 +1,4 @@
-# Covid-Combate
+# CovidCombate
 
 ## Objetivos
 O projeto tem como objetivo contribuir com os gestores dos municípios que não possuem base de dados de endereços, disponibilizando aplicação para o processamento de planilhas específicas (utilizadas como base de dados) e inclusão de novos dados por hospitais e centros de saúde. Como produto final é gerado um .zip com arquivo .shp (shapefile), possibilitando  aplicações na área de geotecnologias dando abertura para serem traçadas estratégias e ações para o bloqueio do COVID19, com a finalidade de minimizar a contaminação.

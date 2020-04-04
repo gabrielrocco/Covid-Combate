@@ -37,10 +37,13 @@ Para o formulário de inserção foi utilizado Javascript e jquery além de uma 
 
 As aplicações WEB de processamento estão hospedadas numa VM da Google e utilizando tmux para rodar em tempo integral. 
 
-## Problemas atuais
+## Limitações
 
+No momento a ferramenta já se encontra funcional, porém com algumas limitações:
 
-
+  * Em localizações mais remotas como cidades pequenas o resultado gerado não se provou satisfatório.
+  
+  * Ainda existem pequenos problemas a serem corrigidos para lidar com todas as possíveis exceções que um usuário pode gerar
 
 
 

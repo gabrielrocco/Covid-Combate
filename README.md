@@ -29,6 +29,20 @@ Em ambos os casos existem respectivas [aplicações WEB](https://covidcombate.co
 
 * Ao processar arquivos localmente além do shapefile também é devolvida uma nova planilha com os dados atualizados.
 
+## Imagens
+
+###### Aplicação para processamento de dados na nuvem
+![Captura de ecrã 2020-04-04, às 19 57 00](https://user-images.githubusercontent.com/56345369/78459084-78b90580-76ae-11ea-9d59-d2b22d0a363b.png)
+
+###### Aplicação para processamento de dados locais
+![Captura de ecrã 2020-04-04, às 19 58 25](https://user-images.githubusercontent.com/56345369/78459115-ac942b00-76ae-11ea-8c8c-36e32d202aae.png)
+
+###### Dados dispostos no software QuantumGis utilizando sinalizações diferentes para o estado da doença: Em análise, positivo e negativo
+![IMG_2509](https://user-images.githubusercontent.com/56345369/78459169-17ddfd00-76af-11ea-93c2-420281d159a5.JPG)
+
+###### .zip de teste sendo visualizado no mapa disponível no site. (O mapa é apenas para ilustração, não é possível fazer maiores análises)
+![Captura de ecrã 2020-04-04, às 20 05 04](https://user-images.githubusercontent.com/56345369/78459263-bbc7a880-76af-11ea-90f4-4051979ff39f.png)
+
 ## Como foi feito?
 
 Toda a aplicação WEB de processamento foi construída em Python utilizando diversas bibliotecas, foi também utilizado o [framework flask](https://flask.palletsprojects.com/en/1.1.x/) assim como HTML, CSS e JS para o desenvolvimento destas e todas as outras páginas WEB.

@@ -96,7 +96,7 @@ def make_database(file):
 
 
 """
-Faz a leitura das credenciais para o API Geolocator para a planilha
+Faz a conexao com a base de dados na nuvem
 """
 def make_sheets_database_connection(client):
     print()
@@ -105,8 +105,6 @@ def make_sheets_database_connection(client):
 
 
 
-def readCredenciais(credencialFile):
-    print()
 
 """
 -------------------------------------------------------------------------------------------------------------------

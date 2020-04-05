@@ -43,6 +43,9 @@ Em ambos os casos existem respectivas [aplicações WEB](https://covidcombate.co
 ###### .zip de teste sendo visualizado no mapa disponível no site. (O mapa é apenas para ilustração, não é possível fazer maiores análises)
 ![Captura de ecrã 2020-04-04, às 20 05 04](https://user-images.githubusercontent.com/56345369/78459263-bbc7a880-76af-11ea-90f4-4051979ff39f.png)
 
+###### Página Inicial Mobile 
+![IMG_2571](https://user-images.githubusercontent.com/56345369/78502951-998b6480-775b-11ea-94d2-ab2adab9133d.jpg)
+
 ## Como foi feito?
 
 Toda a aplicação WEB de processamento foi construída em Python utilizando diversas bibliotecas, foi também utilizado o [framework flask](https://flask.palletsprojects.com/en/1.1.x/) assim como HTML, CSS e JS para o desenvolvimento destas e todas as outras páginas WEB.

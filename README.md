@@ -49,7 +49,7 @@ Toda a aplicação WEB de processamento foi construída em Python utilizando div
 
 Para o formulário de inserção foi utilizado Javascript e jquery além de uma planilha previamente configurada com o editor de script para aceitar entradas.
 
-As aplicações WEB de processamento estão hospedadas numa VM da Google e utilizando tmux para rodar em tempo integral. 
+As aplicações WEB de processamento estão hospedadas numa VM da Google e utilizando tmux para rodar em tempo integral. O servidor utiliza [Gunicorn](https://gunicorn.org) já que pela própria documentação oficial, Flask não se mostra adequado para tal.
 
 ## Limitações
 

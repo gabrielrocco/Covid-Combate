@@ -56,7 +56,7 @@ No momento a ferramenta já se encontra funcional, porém com algumas limitaçõ
   
   * Ainda existem pequenos problemas a serem corrigidos para lidar com todas as possíveis exceções que um usuário pode gerar
  
-  * Ainda não foi feita uma versão mobile.
+  * Ainda não foi feita uma versão mobile. 
 
 # CovidCombate - FERRAMENTA ANTERIOR (DESATUALIZADO)
 

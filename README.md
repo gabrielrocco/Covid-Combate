@@ -1,9 +1,54 @@
 # CovidCombate
 
 ## Objetivos
-O projeto tem como objetivo contribuir com os gestores dos municípios que não possuem base de dados de endereços, disponibilizando aplicação para o processamento de planilhas específicas (utilizadas como base de dados) e inclusão de novos dados por hospitais e centros de saúde. Como produto final é gerado um .zip com arquivo .shp (shapefile), possibilitando  aplicações na área de geotecnologias dando abertura para serem traçadas estratégias e ações para o bloqueio do COVID19, com a finalidade de minimizar a contaminação.
+A ideia central é servir como um ambiente em que a Prefeitura, em conjunto com as respectivas entidades de saúde podem montar uma base de informações sólidas e em tempo real, em que é possível além de armazenar as mesmas, fazer o processamento de dados e obter arquivos para análises mais complexas.
 
 #### [Clique para acessar o projeto](https://covidcombate.com.br)
+
+## Como funciona ?
+É possível concluir o cadastro na ferramenta de duas formas distintas:
+* Criando uma nova base de dados como administrador
+* Utilizando o código de colaboração de uma base já existente
+
+Criando uma nova base como administrador, é possível:
+* Inserir novos dados
+* Editar/Excluir qualquer dado colocado por você ou qualquer colaborador
+* Processar os dados
+* Gerar arquivos .csv e .shp da base de dados
+* Visualizar todas as informações da base de dados
+
+Por fim, quem finalize o cadastro utilizando um código de colaboração poderá:
+* Inserir novos dados para a base de colaboração
+* Editar/Excluir apenas os dados colocados por ele mesmo
+
+O processamento dos dados é possível devido a API Geocoding da Google, além de posteriores análises de resultado para mitigar possíveis incongruências. Este processamento transforma endereços em coordenadas e após isso é possível gerar um arquivo Shapefile.
+
+A partir destas coordenadas podemos mapear os doentes e fazer análises com filtros diversos em Softwares como [QGis](https://qgis.org/en/site/) além disso é possível verificar a concentração de doentes numa determinada área de modo a tomar ações mais efetivas e direcionadas.
+
+#### ATENÇÃO: A aplicação gera coordenadas com base na API da Google, com base em testes já foi verificado que certos resultados, principalmente em regiões mais remotas podem apresentar erros.
+
+| rua                 | numero_casa  |cidade       |cep|latitude       |longitude      |
+| ------------------- | ------------ |------------ | ----|---------------|---------------|
+|  Rua Barreto Leme   |  35          | Campinas    | 13010200 |Gerado no Processamento|Gerado no Processamento|
+
+## Imagens
+
+###### Página de Login
+![login](https://user-images.githubusercontent.com/56345369/79779697-b1094680-8332-11ea-8ac0-eccd7825d243.png)
+
+###### Inserção/Edição/Remoção de dados
+![dados](https://user-images.githubusercontent.com/56345369/79779800-db5b0400-8332-11ea-8b61-8af429bad88a.png)
+
+###### Ferramenta de processamento de dados
+![processamento](https://user-images.githubusercontent.com/56345369/79779862-f7f73c00-8332-11ea-90a4-3cde93483106.png)
+
+###### Gestão de colaboradores
+![colab](https://user-images.githubusercontent.com/56345369/79780938-9d5edf80-8334-11ea-8926-df7dbe2d5ce3.png)
+
+###### Visualização das entradas de forma espacializada
+![mapa com shapefile gerado](https://user-images.githubusercontent.com/56345369/79780022-342a9c80-8333-11ea-9c47-67bc4f33702e.png)
+
+# CovidCombate - FERRAMENTA ANTERIOR (DESATUALIZADO)
 
 O uso recomendado seria que entidades responsáveis por cidades (Prefeituras, etc) criassem uma planilha e a configurassem, fornecendo a chave específica para centros de saúde, hospitais entre outros que pudessem atualizar a base com novas entradas de doentes.
 Ao processar os dados o campo da planilha de rua, número da casa e cidade são utilizadas junto ao [API Geocoding da Google](https://developers.google.com/maps/documentation/geocoding/intro) para gerar coordenadas. (Um endereço é transformado em latitude e longitude e então a planilha é atualizada em tempo real e os arquivos gerados). 
